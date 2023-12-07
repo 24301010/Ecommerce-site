@@ -1,0 +1,258 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    outline: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+body{
+    background-color: white;
+    height: max-content;
+}
+:root{
+    --secondary-color: #353535;
+    --primary-color: #FBD804;
+    --padding: 0.5rem;
+    --transition: all 0.3s;
+    --border-radius: 0.6rem;
+    --box-shadow: 0.1rem 0.2rem 0.8rem rgba(205,202,202,0.5);
+    
+}
+nav{
+    display: flex;
+    position: sticky;
+    top: 0;
+    left: 0;
+    
+}
+.nav-upper__list{
+    display: flex;
+    padding: var(--padding);
+    background: #FBD804;
+    margin-left: 250px;
+    width: 700px;
+
+}
+.nav-upper__list__li{
+    padding: 0 0rem;
+    margin-top: 10px;
+}
+.nav-upper__list__li-img{
+    margin-left: 0px;
+}
+.nav-upper__link{
+    color: black;
+    font-family: Maven Pro;
+    font-size: 1.2rem;
+    transition: 0.5s;
+    border: none;
+    padding: 20px;
+    border-radius: var(--border-radius);
+}
+
+.nav-upper__link:hover{
+   color: #FBD804;
+    background-color: black;
+  
+}
+.nav-upper{
+    display: flex;
+    background-color: var(--primary-color);
+ 
+ 
+    align-items: center;
+    height: 6rem;
+    z-index: 10;
+   
+}
+.nav-upper__img1{
+    width: 40px;
+    border-radius: 50%;
+    border: 1px inset white;
+    filter: saturate(0);
+}
+.nav-upper__img1:hover{
+   
+    filter: saturate(1);
+    transition: var(--transition);
+    
+}
+.nav-lower{
+    display: flex;
+    background-color: var(--secondary-color);
+     border-top-left-radius: 100%;
+     border-bottom-left-radius: 100%;
+     border-top-right-radius: 100%;
+     background-color: white;
+    align-items: center;
+    height: 4rem;
+}
+
+
+.nav-lower__link{
+    color: black;
+    font-family: Maven Pro;
+    font-size: 1.2rem;
+    transition: var(--transition);
+    position: relative;
+    margin-left: 250px;
+    border: none;
+    padding: 10px;
+    border-radius: var(--border-radius);
+}
+.imran-shop{
+    position: relative;
+    left: 80px;
+    font-size: 30px;
+    font-family: fantasy;
+    border: none;
+    width: 400px;
+    padding: 10px;
+    color: black;
+}
+.nav-lower__link:hover{
+    color: gold;
+    background-color: black;
+
+    
+ }
+ .div-footer{
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+ }
+ .div-footer__label{
+    font-size: 1.1rem;
+    color: black;
+    font-family: Maven Pro;
+    margin-left: 50px;;
+ }
+ .div-footer__input{
+    background-color: white;
+    height: 30px;
+    width: 200px;
+    border-radius: var(--border-radius);
+    text-indent: 20px;
+    font-family: Maven Pro;
+    border: none;
+    margin-left: -1150px;
+    transition: var(--transition);
+ }
+ .div-footer__btn{
+    height: 30px;
+    width: 70px;
+    background-color: white;
+    border-radius: var(--border-radius);
+    border: none;
+    font-family: Maven Pro;
+    margin-left: -1160px;
+    color: black;
+    transition: var(--transition);
+ }
+ .div-footer__text{
+    font-size: 12px;
+    font-family: sans-serif;
+    color: black;
+    margin-right: 20px;
+ }
+ .div-footer__btn:hover{
+   
+    background-color: black;
+   
+    border: 1px inset gray;
+    font-family: Maven Pro;
+    
+    color: var(--primary-color);
+ }
+ .div-footer__input:focus{
+    background-color: white;
+   
+  
+    text-indent: 20px;
+   
+    border: 1px inset gray;
+   
+ }
+.headphone-img{
+    width: 600px;
+    margin-top: 150px;
+    margin-left: 200px;
+    border-radius: var(--border-radius);
+}
+
+.product-div-one{
+    background-color: white;
+    width: 800px;
+    margin-left: 1000px;
+    height: 400px;
+    margin-top: -410px;
+    border-radius: var(--border-radius);
+
+}
+
+.div-main{
+    background-color: rgba(0, 0, 0, 0);
+    height: 740px;
+}
+.product-div-one__text1{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.product-div-one__text2{
+    margin-left: 20px;
+    margin-top: 10px;
+    font-family: Maven Pro;
+    font-size: 18px;
+}
+.product-div-one__text3{
+    margin-left: 20px;
+    margin-top: 20px;
+    
+}
+.product-div-one__text4{
+    margin-left: 20px;
+    margin-top: 8px;
+    color: gray;
+    font-size: 15px;
+}
+.product-div-one__text5{
+    margin-left: 22px;
+    margin-top: 10px;
+    font-size: 17px;
+    
+}
+.product-div-one__btn{
+    background-color: #FCE042;
+    height: 40px;
+    width: 300px;
+    border: none;
+    border-radius: var(--border-radius);
+    margin-left: 25px;
+    font-family: Maven Pro;
+    margin-top: 20px;
+    font-size: 17px;
+    transition: var(--transition);
+}
+.product-div-one__btn:hover{
+    background-color: red;
+    color: white
+}
+.product-div-one__btn:focus{
+    background-color: silver;
+    color: white
+}
+figcaption{
+    margin-left: 420px;
+    font-family: Maven Pro;
+    margin-top: 30px;
+}
